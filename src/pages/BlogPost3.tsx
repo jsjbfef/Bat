@@ -18,7 +18,7 @@ const BlogPost3 = () => {
           
           <div className="mb-8">
             <img
-              src="https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg"
+              src="https://images.pexels.com/photos/1029896/pexels-photo-1029896.jpeg"
               alt="Fall lawn preparation"
               className="w-full h-64 md:h-96 object-cover rounded-2xl shadow-lg"
             />

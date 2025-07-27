@@ -15,7 +15,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="w-10 h-10 rounded-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
-              <img src="/Capture d'écran, le 2025-07-27 à 16.52.46.png" alt="Batteiger Logo" className="w-10 h-10 rounded-lg" />
+              <img src="https://images.pexels.com/photos/1105019/pexels-photo-1105019.jpeg" alt="Batteiger Logo" className="w-10 h-10 rounded-lg object-cover" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-gray-900">Batteiger</h1>

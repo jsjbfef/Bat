@@ -12,7 +12,7 @@ const Blog = () => {
       author: 'Yasmine .C',
       date: 'March 15, 2025',
       category: 'Lawn Care',
-      image: 'https://images.pexels.com/photos/1105019/pexels-photo-1105019.jpeg',
+      image: 'https://images.pexels.com/photos/1453499/pexels-photo-1453499.jpeg',
       readTime: '5 min read'
     },
     {
@@ -34,7 +34,7 @@ const Blog = () => {
       author: 'Yasmine .C',
       date: 'October 12, 2024',
       category: 'Seasonal Care',
-      image: 'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
+      image: 'https://images.pexels.com/photos/1029896/pexels-photo-1029896.jpeg',
       readTime: '5 min read'
     }
   ];

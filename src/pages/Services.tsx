@@ -94,11 +94,11 @@ const Services = () => {
             {lawnServices.map((service, index) => (
               <div
                 key={index}
-                className="bg-gradient-to-br from-red-50 to-white p-6 lg:p-8 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+                className="bg-gradient-to-br from-red-50 to-white p-6 lg:p-8 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col"
               >
                 <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-3 lg:mb-4">{service.title}</h3>
                 <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">{service.description}</p>
-                <ul className="space-y-2 mb-4 lg:mb-6">
+                <ul className="space-y-2 mb-4 lg:mb-6 flex-grow">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center space-x-2">
                       <CheckCircle className="w-5 h-5 text-red-600 flex-shrink-0" />
@@ -106,11 +106,11 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <div className="flex items-center justify-between">
-                  <span className="text-base lg:text-lg font-semibold text-red-600">{service.price}</span>
+                <div className="flex items-center justify-between mt-auto">
+                  <span className="text-base lg:text-lg font-semibold text-red-600 whitespace-nowrap">{service.price}</span>
                   <Link
                     to="/contact"
-                    className="text-red-600 font-semibold hover:text-red-700 inline-flex items-center group"
+                    className="text-red-600 font-semibold hover:text-red-700 inline-flex items-center group whitespace-nowrap"
                   >
                     Get Quote
                     <ArrowRight className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />

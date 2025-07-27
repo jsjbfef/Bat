@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div>
               <img
-                src="/batteigerfam.png"
+                src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg"
                 alt="Batteiger family team"
                 className="rounded-2xl shadow-2xl w-full h-auto transform hover:scale-105 transition-transform duration-300"
               />
@@ -76,9 +76,6 @@ const About = () => {
               <p>
                 Today, Batteiger Lawn & Snow Services proudly serves dozens of homes and businesses across the area. With every driveway we clear and every lawn we cut, we're grateful for the trust our community has placed in us — and we don't take that for granted. -John Batteiger
               </p>
-              <div className="text-center mt-4">
-                <p className="italic">-John Batteiger</p>
-              </div>
             </div>
           </div>
         </div>
