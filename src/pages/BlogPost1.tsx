@@ -191,7 +191,6 @@ const BlogPost1 = () => {
                 🎯 <strong>Bottom Line:</strong> With proper spring care, your lawn will reward you with lush, green growth throughout the growing season. Remember, consistency is key—establish a routine and stick with it for the best results.
               </p>
             </div>
-            </p>
 
             <p>
               <em>Ready to get started?</em> Take it one step at a time, and don't hesitate to reach out to professionals when you need expert guidance. Your lawn will thank you for the attention!
