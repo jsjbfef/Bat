@@ -94,7 +94,7 @@ const Services = () => {
             {lawnServices.map((service, index) => (
               <div
                 key={index}
-                className="bg-gradient-to-br from-red-50 to-white p-6 lg:p-8 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col"
+                className={`bg-gradient-to-br from-red-50 to-white p-6 lg:p-8 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col ${index === 1 ? 'lg:min-h-[400px]' : ''}`}
               >
                 <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-3 lg:mb-4">{service.title}</h3>
                 <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">{service.description}</p>

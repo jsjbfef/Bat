@@ -25,21 +25,10 @@ const Blog = () => {
       category: 'Snow Removal',
       image: 'https://images.pexels.com/photos/1128797/pexels-photo-1128797.jpeg',
       readTime: '7 min read'
-    },
-    {
-      id: 3,
-      title: 'The Complete Guide to Fall Lawn Preparation',
-      excerpt: 'Prepare your lawn for winter success with these essential fall maintenance tasks that ensure a healthy spring recovery.',
-      content: 'Fall preparation is crucial for a healthy lawn that bounces back strong in spring...',
-      author: 'Yasmine .C',
-      date: 'October 12, 2024',
-      category: 'Seasonal Care',
-      image: 'https://images.pexels.com/photos/1029896/pexels-photo-1029896.jpeg',
-      readTime: '5 min read'
     }
   ];
 
-  const categories = ['All', 'Lawn Care', 'Snow Removal', 'Seasonal Care'];
+  const categories = ['All', 'Lawn Care', 'Snow Removal'];
   const [selectedCategory, setSelectedCategory] = React.useState('All');
 
   const filteredPosts = selectedCategory === 'All' 

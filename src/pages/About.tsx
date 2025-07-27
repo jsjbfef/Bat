@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div>
               <img
-                src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg"
+                src="/batteigerfam.png"
                 alt="Batteiger family team"
                 className="rounded-2xl shadow-2xl w-full h-auto transform hover:scale-105 transition-transform duration-300"
               />
@@ -74,8 +74,11 @@ const About = () => {
                 It all started with a push mower, a few shovels, and a commitment to do right by our neighbors. Thanks to the people who gave us a chance, this has turned into something much bigger than we imagined. We built this company on values like honesty, loyalty, and dependability — and that's still what drives us every single day.
               </p>
               <p>
-                Today, Batteiger Lawn & Snow Services proudly serves dozens of homes and businesses across the area. With every driveway we clear and every lawn we cut, we're grateful for the trust our community has placed in us — and we don't take that for granted. -John Batteiger
+                Today, Batteiger Lawn & Snow Services proudly serves dozens of homes and businesses across the area. With every driveway we clear and every lawn we cut, we're grateful for the trust our community has placed in us — and we don't take that for granted.
               </p>
+              <div className="text-center mt-8">
+                <p className="text-gray-600 italic">-John Batteiger</p>
+              </div>
             </div>
           </div>
         </div>
