@@ -124,9 +124,6 @@ const Blog = () => {
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-500">{blogPosts[0].readTime}</span>
                   <Link
-                    to={post.id === 2 ? "/blog/winter-snow-removal-guide" : "/blog/fall-lawn-preparation"}
-                    className="text-red-600 font-semibold hover:text-red-700 inline-flex items-center group"
-                  >
                     to="/blog/spring-lawn-care-tips"
                     className="text-red-600 font-semibold hover:text-red-700 inline-flex items-center group"
                   >
